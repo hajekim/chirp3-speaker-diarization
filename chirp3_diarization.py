@@ -8,10 +8,10 @@ from google.cloud import storage
 # ==============================================================================
 # ⚠️ 주의: 다음 변수들을 사용자의 환경에 맞게 수정해주세요.
 # ==============================================================================
-PROJECT_ID = "PROJECT_ID" # Google Cloud 프로젝트 ID
-GCS_BUCKET_NAME = "BUCKET_NAME" # GCS 버킷 이름
-LOCAL_AUDIO_FILE = "LOCAL_AUDIO_FILE" # 로컬 오디오 파일 경로
-LOCATION = "us"
+PROJECT_ID = "YOUR_PROJECT_ID"       # Google Cloud 프로젝트 ID
+GCS_BUCKET_NAME = "YOUR_BUCKET_NAME" # GCS 버킷 이름
+LOCAL_AUDIO_FILE = "/path/to/your/audio.wav" # 로컬 오디오 파일 경로
+LOCATION = "us" # API를 호출할 리전 (예: "us", "europe-west4")
 # ==============================================================================
 
 GCS_AUDIO_URI = f"gs://{GCS_BUCKET_NAME}/{os.path.basename(LOCAL_AUDIO_FILE)}"
