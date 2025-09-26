@@ -6,7 +6,7 @@
 ## 주요 기능
 
 - 로컬 오디오 파일을 Google Cloud Storage(GCS)에 업로드합니다.
-- Speech-to-Text V2 API와 Chirp-3 모델을 사용하여 화자 분리가 포함된 음성 인식을 수행합니다.
+- Speech-to-Text V2 API와 Chirp3 모델을 사용하여 화자 분리가 포함된 음성 인식을 수행합니다.
 - 인식된 텍스트를 화자별로 구분하여 출력합니다.
 
 ## 사전 준비
