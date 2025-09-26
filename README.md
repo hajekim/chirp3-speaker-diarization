@@ -1,7 +1,7 @@
 # Chirp3 화자 분리 (Speaker Diarization) 샘플
 
 이 프로젝트는 Google Cloud의 Chirp3 모델을 사용하여 오디오 파일에서 화자를 분리하는 방법을 보여주는 Python 스크립트 예제입니다.
-- [Using Chirp3](https://cloud.google.com/speech-to-text/v2/docs/chirp_3-model#using_chirp_3)
+- [Chirp 3 Transcription: Enhanced multilingual accuracy  |  Cloud Speech-to-Text V2 documentation  |  Google Cloud](https://cloud.google.com/speech-to-text/v2/docs/chirp_3-model#using_chirp_3)
 
 ## 주요 기능
 
